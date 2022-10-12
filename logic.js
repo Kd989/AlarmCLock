@@ -4,7 +4,7 @@ const CurrentTime = document.querySelector("h1"),
     SetalarmBtn = document.querySelector("button");
 
 let AlarmTime,
-    ringtone = new Audio("./audio.mp3")
+    ringtone = new Audio("audio.mp3")
 
 // console.log(SetalarmBtn);
 for (let i = 12; i > 0; i--) {
